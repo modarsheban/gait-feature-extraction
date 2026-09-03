@@ -1,0 +1,28 @@
+# Private local data
+data/private/
+data/raw/
+data/videos/
+
+# Ignore raw videos by default
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Allow only the public demo video
+!examples/
+!examples/demo_video_blurred.mp4
+!examples/demo_skeleton_2d_pixels.csv
+!examples/README.md
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Python/cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
