@@ -136,6 +136,7 @@ FRONTAL_DISTANCE_M = 3.0
 
 Adjust these values according to the acquisition protocol.
 
+````markdown
 ## Outputs
 
 Generated files are saved in `outputs/`.
@@ -147,8 +148,6 @@ corrected_skeleton.csv
 features_debug.csv
 signals_debug.csv
 foot_anomaly_debug.csv
-
-The `outputs/` folder is ignored by Git except for `.gitkeep`.
 
 ## Data privacy
 
