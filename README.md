@@ -138,18 +138,15 @@ Adjust these values according to the acquisition protocol.
 
 ## Outputs
 
-Generated files should be saved in `outputs/`. Typical outputs include:
+Generated files are saved in `outputs/`.
+
+When the feature extraction notebook is executed, the main generated files are:
 
 ```text
-gait_features.csv
-gait_signals.csv
-feature_registry.csv
-gait_segmentation.csv
-phase_by_frame.csv
-foot_motion_debug.csv
-turn_detection_debug.csv
+corrected_skeleton.csv
+features_debug.csv
+signals_debug.csv
 foot_anomaly_debug.csv
-```
 
 The `outputs/` folder is ignored by Git except for `.gitkeep`.
 
